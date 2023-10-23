@@ -22,7 +22,8 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             value={post.prompt}
             onChange={(e) => setPost({ ...post, prompt: e.target.value })}
             placeholder="Write your prompt here..."
-            requiredclassName="form_textarea"
+            required
+            className="form_textarea"
           ></textarea>
         </label>
         <label>
@@ -36,7 +37,8 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             value={post.tag}
             onChange={(e) => setPost({ ...post, tag: e.target.value })}
             placeholder="#tag"
-            requiredclassName="form_input"
+            required
+            className="form_input"
           ></input>
         </label>
         <div className="flex-end mx-3 mb-5 gap-4">
