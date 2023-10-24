@@ -4,6 +4,8 @@ This is a website that allows users to create and share AI prompts which can the
 
 It's built using Next.js and hosted on Vercel.
 
+Hosted version here: https://bookish-winner-74khfp9ta-zach-marzouks-projects.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
